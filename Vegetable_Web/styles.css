@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans";
+}
+
+body {
+    background-color:#EDF2C5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1122px;
+    height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.social-media img{
+    width: 30px;
+    height: 30px;
+}
+
+.social-media button{
+    color: #778A50;
+    background-color: transparent;
+    border: 1px solid #778A50;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical-line {
+    display: inline;
+    border-left: 2px solid #778A50;
+}
+
+h1{
+    font-size: 44px;
+    color:#778A50;
+    font-weight: bold;
+}
+
+h2{
+    background-color: #778A50;
+    color:#EDF2C5;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+nav{
+    background-color:#778A50;
+    color:white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+li{
+    display: inline;
+    padding: 10px 25px;
+}
+
+li a{
+    color: #EDF2C5;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+#logo{
+    margin-top: 15px;
+}
+
+.content {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.content h2{
+    padding: 10px 30px;
+}
+
+.vegetables, .contact {
+    width: 48%;
+}
+
+.img_vegetables {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.img_vegetables img {
+    width: 170px;
+}
+
+.context{
+    height: 160px;
+    margin-top: 15px;
+    padding: 16px;
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+}
+
+footer{
+    height: 60px;
+    display: flex;
+    background-color: #778A50;
+    color:#EDF2C5;    
+    font-size: 12px;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+}
